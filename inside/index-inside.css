@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+}
+
+body{
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.pic11{
+    width: 28%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 4%;
+    border-radius: 0.5rem;
+    box-shadow: -5px 5px 15px 3px red;
+    animation: pic1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: translateX(50px);
+    filter: blur(5px);
+    transition: 2s;
+    opacity: 0;
+}
+
+.picture1{
+    transform: translateX(0px);
+    filter: blur(0px);
+    transition: 2s;
+    opacity: 100;
+}
+
+@keyframes pic1{
+    from{
+        box-shadow: -5px 5px 15px 3px red;
+    }
+    to{
+        box-shadow: -5px 5px 15px 3px skyblue;
+    }
+}
+
+/*     bg-home       */
+.paper-home h1{
+    color: red;
+    margin-left: 5%;
+    font-size: 55px;
+    margin-top: 8%;
+    position: absolute;
+}
+
+.paper-home .future{
+    color: skyblue;
+    margin-left:5%;
+    font-size: 70px;
+    margin-top: 12%;
+    position: absolute;
+}
+
+.paper-home .software{
+    color: skyblue;
+    margin-left:5%;
+    font-size: 70px;
+    margin-top: 17%;
+    position: absolute;
+}
+
+.started{
+    text-decoration: none;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: red;
+    margin-top: 25%;
+    margin-left: 5%;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.started:hover{
+    color: black;
+    background-color: rgb(102, 0, 0);
+    transition: 0.2s;
+    position: absolute;
+}
+
+/*      sectopm 2        */
+.section2{
+    width: 98.8vw;
+    height: 100vh;
+    background: linear-gradient(black, skyblue);
+    margin-top: 55%;
+}
+
+.about-paper{
+    background-color: transparent;
+    width: 48vw;
+    height: 70vh;
+    margin-top: 10%;
+    margin-left: 50%;
+    position: absolute;
+    transform: translateY(100px);
+    filter: blur(5px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.about-paper .more-on{
+    font-size: 50px;
+}
+
+.about-paper .about-tabibee{
+    font-size: 50px;
+    margin-top: -4%;
+}
+
+.about-paper .im-tabibee{
+    font-size: 25px;
+}
+
+.papel{
+    transform: translateY(0);
+    filter: blur(0);
+    transition: 1s;
+    opacity: 100;
+}
+.image-cover{
+    background-color: transparent;
+    width: 30vw;
+    height: 60vh;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+    transform: translateY(-100px);
+    filter: blur(5px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.image img{
+    width: 90%;
+    margin-top: -13%;
+}
+
+.imahe1{
+    transform: translateY(0);
+    filter: blur(0);
+    transition: 1s;
+    opacity: 100;
+}
