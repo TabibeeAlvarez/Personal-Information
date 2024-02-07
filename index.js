@@ -14,10 +14,6 @@ function pasok(){
     event.preventDefault();
 }
 
-function back1(){
-    window.location.href = 'index.html'
-}
-
 const popUp = document.querySelectorAll('.pop-paper');
 window.addEventListener('click', pops);
 
@@ -35,4 +31,3 @@ function pops(){
         }
     })
 }
-
