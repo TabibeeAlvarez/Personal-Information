@@ -15,7 +15,7 @@ function pasok(){
 }
 
 function back1(){
-    window.location.href = '/index.html'
+    window.location.href = 'index.html'
 }
 
 const popUp = document.querySelectorAll('.pop-paper');
