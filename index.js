@@ -1,6 +1,6 @@
 document.getElementById('pop-bg').style.display = 'none'
 
-function pasok(){
+function pasok(event){
     const username = document.getElementById('user').value;
     const password = document.getElementById('pass').value;
 
