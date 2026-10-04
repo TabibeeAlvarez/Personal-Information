@@ -5,7 +5,7 @@ function pasok(event){
     const password = document.getElementById('pass').value;
 
     if(username === 'tabibee' && password === '12345'){
-        window.location.href = 'index-inside.html'
+        window.location.href = 'inside/index-inside.html'
     }
     else{
         document.getElementById('pop-bg').style.display = 'block'
